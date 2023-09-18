@@ -66,6 +66,10 @@ section {
     font-weight: 80px;
     width: 80px;
     animation: floatImage2 4s ease-in-out infinite;
+    border-radius: 100px;
+    position: relative;
+    top: 20px;
+    right: 10px;
 }
 
 @keyframes floatImage2 {
