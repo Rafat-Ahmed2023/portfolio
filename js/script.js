@@ -16,13 +16,6 @@ menuIcon.onclick = () => {
 
 
 
-
-
-
-
-
-
-
 let sections = document.querySelectorAll('section');
 let navLinks= document.querySelectorAll('header nav a');
 
@@ -91,8 +84,14 @@ const typed = new Typed ('.multiple-text', {
 });
 
 
-const menu=document.querySelector(".menu");
-const toggle=document.querySelector(".toggle");
+
+
+
+//*========================Share =================*//
+const menu=document.querySelector(".social-menu");
+const toggle=document.querySelector(".social-toggle");
 toggle.addEventListener("click",()=>{
   menu.classList.toggle("active");
 })
+
+//*========================Share =================*//
