@@ -102,6 +102,8 @@ color : var(--main-color);
 }
 
 .home-img img {
+    position: relative;
+    top: 10px;
     width: 35vw;
     animation: floatImage 4s ease-in-out infinite;
     border-radius: 50%;
